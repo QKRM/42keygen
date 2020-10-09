@@ -1,3 +1,8 @@
+if [ -z ${id} ] ; then
+	echo "you need to type your intra id"
+	exit
+fi
+
 rm -rf ~/.ssh/known_hosts
 ssh-keygen -t rsa -b 4096 -C $id@student.42seoul.kr
 eval "$(ssh-agent -s)"
