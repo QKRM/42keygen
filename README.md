@@ -5,7 +5,7 @@ ssh-keygen을 돕기 위해 만든 스크립트 입니다!
 사용방법
 
 ``` shell
-git clone github.com/QKRM/42keygen/
+git clone https://github.com/QKRM/42keygen.git
 id=(intra id) ./42keygen.sh
 ```
 엔터와 를 알맞게 입력하면 키는 자동으로 클립보드에 복사됩니다!  
