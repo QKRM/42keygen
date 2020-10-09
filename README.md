@@ -1,8 +1,8 @@
 # 42keygen
 
-##ssh-keygen을 돕기 위해 만든 쉘스크립트 입니다!
+ssh-keygen을 돕기 위해 만든 스크립트 입니다!
 
-###사용방법
+사용방법
 
 ``` shell
 git clone github.com/QKRM/42keygen/
