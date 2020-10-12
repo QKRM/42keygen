@@ -2,6 +2,14 @@
 
 ssh-keygen을 돕기 위해 만든 스크립트 입니다!
 
+OS X, VNC에서 사용가능합니다!  
+ssh환경에서는 pbcopy명령어가 지원이 안되는관계로  
+직접
+``` shell
+cat ~/.ssh/id_rsa.pub
+```
+를 통해 복사 하셔야합니다!
+
 사용방법
 
 ``` shell
