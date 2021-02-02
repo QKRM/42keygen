@@ -12,13 +12,13 @@ VNC
 ``` shell
 git clone https://github.com/QKRM/42keygen.git
 cd 42keygen
-id=(intra id) ./42keygen.sh
+id="intra id" ./42keygen.sh
 ```
 SSH  
 ``` shell
 git clone https://github.com/QKRM/42keygen.git
 cd 42keygen
-id=(intra id) ./42keygen.sh -s
+id="intra id" ./42keygen.sh -s
 ```
 엔터와 y를 알맞게 입력하면 키는 자동으로 클립보드에 복사됩니다!  (-s옵션시 cat으로 출력된걸 복사해주세요!)
 https://profile.intra.42.fr/gitlab_users/new  
