@@ -11,11 +11,10 @@ eval "$(ssh-agent -s)"
 ssh-add -K ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 
-while getopts "s:" opt
+while getopts "s" opt
 do 
 	case $opt in
-		s)
-			cat ~/.ssh/id_rsa.pub
+		s) echo " " ; echo "copy the following ssh key" ; echo " " ; cat ~/.ssh/id_rsa.pub
 			;;
 	esac
 done
