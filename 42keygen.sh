@@ -14,7 +14,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 while getopts "s" opt
 do 
 	case $opt in
-		s) echo " " ; echo "copy the following ssh key" ; echo " " ; cat ~/.ssh/id_rsa.pub
+		s) echo " " ; echo "copy and paste the following ssh key" ; echo " " ; cat ~/.ssh/id_rsa.pub
 			;;
 	esac
 done
